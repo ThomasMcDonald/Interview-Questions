@@ -1,6 +1,7 @@
 // Factorial Function
 // 6! = 6*5*4*3*2*1
-
+// Doing it Recurisve-Terniary is the way to do it if you want to show off.
+// Can also be done in a foor loop or while loop.
 function fact(n){
 	return n == 1? n: n*fact(n-1);
 }
