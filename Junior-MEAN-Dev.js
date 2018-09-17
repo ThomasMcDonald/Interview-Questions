@@ -1,3 +1,7 @@
+// 14/09/2017
+// Interview questions that were asked in a Junior MEAN Stack Developer interview
+
+
 // Factorial Function
 // 6! = 6*5*4*3*2*1
 // Doing it Recurisve-Terniary is the way to do it if you want to show off.
