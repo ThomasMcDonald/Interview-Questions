@@ -22,3 +22,14 @@ console.log(2.0 == "2" == new Boolean(true) == 1);  // True, true = 1, and false
 console.log(2.0 === "2" === new Boolean(true) === 1); // false, The === is checking if its the same type, none of theses are of the same type.
 
 
+// What is the below called and what will it output?
+
+(async function(x) { 
+  return x 
+})(10).then(v => {
+  console.log(v);  
+});
+
+// This is an Immediately-Invoked-function-expression or IIFE
+// These functions execute immediately after they are created
+// It will print out 10
