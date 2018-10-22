@@ -37,3 +37,14 @@ console.log(2.0 === "2" === new Boolean(true) === 1); // false, The === is check
 // This is an Immediately-Invoked-function-expression or IIFE
 // These functions execute immediately after they are created
 // It will print out 10
+
+
+// No specifically asked in the interview but might as well add it anyway
+// Is the given string a palindrome?
+console.log("Saippuakivikauppias".toLowerCase().split('').reverse().join('') == "Saippuakivikauppias".toLowerCase() ? true : false);
+
+//
+
+
+
+
