@@ -40,8 +40,11 @@ console.log(2.0 === "2" === new Boolean(true) === 1); // false, The === is check
 
 
 // No specifically asked in the interview but might as well add it anyway
-// Is the given string a palindrome?
-console.log("Saippuakivikauppias".toLowerCase().split('').reverse().join('') == "Saippuakivikauppias".toLowerCase() ? true : false);
+// Palindrome Function
+function palindrome(string){
+ return string.toLowerCase().split('').reverse().join('') == string.toLowerCase() ? true : false;
+}
+
 
 //
 
