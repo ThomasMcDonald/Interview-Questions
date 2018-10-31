@@ -41,8 +41,8 @@ console.log(2.0 === "2" === new Boolean(true) === 1); // false, The === is check
 
 // No specifically asked in the interview but might as well add it anyway
 // Palindrome Function
-function palindrome(string){
- return string.toLowerCase().split('').reverse().join('') == string.toLowerCase() ? true : false;
+function palindrome(str){
+ return str.toLowerCase() === str.toLowerCase().split('').reverse().join('');
 }
 
 
